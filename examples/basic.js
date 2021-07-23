@@ -9,7 +9,7 @@ L.tileLayer('http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery
 
 
 var mvtSource = new L.TileLayer.MVTSource({
-  url: "http://spatialserver.spatialdev.com/services/vector-tiles/GAUL_FSP/{z}/{x}/{y}.pbf",
+  url: "https://tiles.mapillary.com/maps/vtp/mly1_public/2/{z}/{x}/{y}?access_token=MLY|4313354618707960|ee5d3580322dc3bfa4ea7667cd905f75",
   debug: true,
   clickableLayers: ["GAUL0"],
   getIDForLayerFeature: function(feature) {
